@@ -1,0 +1,103 @@
+.titulo-carta {
+  text-transform: uppercase; 
+  letter-spacing: 2px;  
+}
+.cartas {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.pedido {
+  text-align: center;
+  color: #daa520;
+  display: block;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.pergaminho {
+  background-image: url("../fundo/pergaminho3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #491010;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 8px solid #daa520;
+  border-radius: 20px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 0px auto;
+  border: 2px dashed #daa520;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #491010;
+  background: transparent;
+  text-align: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+label {
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+.rena-carta {
+  width: 90%;
+  max-width: 330px;
+  height: auto;
+}
+.presente {
+  border: 2px dashed #daa520;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #f1d788;
+  width: 90%;
+  margin: auto;
+}
+.presente i {
+  font-size: 1rem;
+}
+.container-icones-qdp {
+  border: 2px solid #491010;
+  box-shadow: 2px 2px 2px #491010;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 350px;
+  height: 470px;
+}
+.container-icones-qdp:hover {
+  background-image: url("../fundo/pergaminho3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 3px #491010;
+}
+.di {
+  border-radius: 10px;
+  color: green;
+  background-color: rgb(147, 226, 147);
+  width: 60%;
+  margin: auto;
+}
+.in {
+  border-radius: 10px;
+  color: red;
+  background-color: rgb(238, 137, 137);
+  width: 60%;
+  margin: auto;
+}
+.formulario-presente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./logotipo/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Natal Encantado</title>
+  </head>
+
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <div id="cabecalho-logotipo">
+          <img
+            id="cabecalho-logotipo-img"
+            src="./logotipo/logotipo.png"
+            alt="Logotipo da página"
+          />
+          <h1>
+            Natal <br />
+            Encantado
+          </h1>
+        </div>
+        <nav id="cabecalho-menu">
+          <h1>Menu Principal</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="cartas.html">Cartas</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="#rodape">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div id="bannerCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-target="#bannerCarousel"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#bannerCarousel" data-slide-to="1"></li>
+            <li data-target="#bannerCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100 carousel-img"
+                src="./imagens_crianca/capa-Lista-de-presentes-de-Natal-para-criancas-221122.jpg"
+                alt="Criança sorrindo com presente de natal"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="texto-banner">A magia acontece quando você doa</h2>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 carousel-img"
+                src="./imagens_crianca/capa-presentes-de-natal-dicas-para-acertar-na-escolha-dos-presentes.avif"
+                alt="Criança com expressão de surpresa"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="texto-banner">A magia acontece quando você doa</h2>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 carousel-img"
+                src="./imagens_crianca/natal-espiritual-com-as-criancas.jpg"
+                alt="Mãe lendo livro para seus dois filhos"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="texto-banner">A magia acontece quando você doa</h2>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#bannerCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#bannerCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+        <section id="parte3">
+          <div class="carta">
+            <div class="texto-carta">
+              <h2>O Natal Encantado</h2>
+              <hr />
+              <p>
+                O Natal Encantado é um projeto criado por estudantes de
+                Desenvolvimento de Software Multiplataforma da Faculdade de
+                Tecnologia Dr. Thomaz Novelino – FATEC para reacender a magia do
+                Natal no coração de crianças que sonham alto, acreditam no
+                impossível e escrevem cartas cheias de esperança. Cada palavra
+                escrita por elas carrega desejos simples, sentimentos sinceros e
+                a expectativa de viver um momento especial. O site nasceu para
+                ser a ponte entre essas histórias e pessoas dispostas a
+                transformar o Natal de alguém em algo verdadeiramente
+                inesquecível.
+              </p>
+              <p>
+                Por meio da plataforma, qualquer voluntário pode escolher uma
+                carta, adotar um pedido e se tornar parte da magia. O processo é
+                simples, afetuoso e transparente, cada doador tem a oportunidade
+                de conhecer um pouco da criança, entender seu desejo e, com um
+                gesto generoso, criar um impacto que vai muito além do presente
+                entregue. É o espírito natalino se transformando em ação e
+                carinho.
+              </p>
+              <p>
+                Mais do que um site, o Natal Encantado é um espaço de encontro
+                entre quem precisa de esperança e quem deseja oferecê-la. Ele
+                celebra a solidariedade, fortalece laços comunitários e nos
+                lembra que pequenos gestos são capazes de tocar vidas. A cada
+                carta adotada, uma nova história se ilumina e o Natal ganha de
+                volta o brilho que só existe quando compartilhamos amor.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="parte2">
+          <div id="quadro1">
+            <h2>Como Funciona?</h2>
+            <hr />
+            <div class="container-icones">
+              <figure class="container-icones-qd">
+                <i class="bi bi-pencil-square"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>1° - Crianças Pedem</h2>
+                  Tudo começa com as crianças, que escrevem suas cartas de
+                  Natal. Nessas mensagens, elas compartilham o que gostariam de
+                  ganhar e contam um pouco de suas histórias. Cada carta é única
+                  e representa um pedido especial, esperando por alguém que
+                  queira fazer parte desse gesto de carinho.
+                </figcaption>
+              </figure>
+
+              <figure class="container-icones-qd">
+                <i class="bi bi-gift-fill"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>2° - Doadores Escolhem</h2>
+                  Os voluntários podem acessar essas cartas no site e escolher
+                  aquela que mais toca seu coração. O processo é simples e
+                  transparente: basta selecionar uma carta, adotar o pedido e
+                  preparar o presente que será entregue à criança e levar aos
+                  pontos de coleta.
+                </figcaption>
+              </figure>
+
+              <figure class="container-icones-qd">
+                <i class="bi bi-magic"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>3°- A Magia Acontece</h2>
+                  O encanto do projeto se completa quando o presente chega às
+                  mãos da criança pela equipe do Natal Encantado. O brilho nos
+                  olhos, o sorriso espontâneo e o sentimento de ser lembrada
+                  fazem essa etapa ser verdadeiramente mágica.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section id="parte2">
+          <div id="quadro3">
+            <h2>A Magia Acontece Quando Você Doa!</h2>
+            <hr />
+            <div class="container-icones">
+              <div>
+                <img
+                  src="./imagens_sobre/rena30.png"
+                  alt="Imagem da rena mascote do site com balão de fala"
+                  class="rena1"
+                />
+              </div>
+              <div class="icone-imagem">
+                <img
+                  src="./imagens_sobre/rena22.png"
+                  alt="Rena entregando presente para criança"
+                  class="imagem-sobreposta1"
+                />
+                <div class="container-icones-qdj">
+                  <i class="bi bi-postcard-heart-fill"></i>
+                  <h2>Para os Doadores e Responsáveis pelas Crianças</h2>
+                  <span class="descritivo"
+                    >Cadastre-se como doador ou como responsável por uma criança
+                    e participe da magia do Natal Encantado.</span
+                  >
+                  <button type="button" class="botao1">
+                    <a href="cadastro.html">Faça seu Cadastro</a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="icone-imagem">
+                <img
+                  src="./imagens_sobre/rena21.png"
+                  alt="Rena escrevendo carta"
+                  class="imagem-sobreposta1"
+                />
+                <div class="container-icones-qdj">
+                  <i class="bi bi-envelope-paper-heart-fill"></i>
+                  <h2>Para as Crianças e Doadores</h2>
+                  <span class="descritivo">
+                    Se você é uma criança, escreva sua cartinha com carinho, se
+                    é um doador, escolha uma cartinha para adotar e transformar
+                    um Natal.</span
+                  >
+                  <button type="button" class="botao2">
+                    <a href="cartas.html">Escreva ou Adote uma Cartinha</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="parte1">
+          <div id="quadro2">
+            <h2>Impacto do Projeto</h2>
+            <hr />
+            <div class="container-icones">
+              <figure class="container-icones-qdi">
+                ️<i class="bi bi-hourglass-split"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>Crianças Esperando</h2>
+                  <span class="texto-impacto">120 Crianças aguardando</span>
+                </figcaption>
+              </figure>
+
+              <figure class="container-icones-qdi">
+                <i class="bi bi-box2-heart"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>Presentes Doados</h2>
+                  <span class="texto-impacto">100 presentes doados</span>
+                </figcaption>
+              </figure>
+
+              <figure class="container-icones-qdi">
+                <i class="bi bi-people-fill"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>Doadores Solidários</h2>
+                  <span class="texto-impacto">200 doadores cadastrados</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="botao">
+            <button type="button" class="botao1">
+              <a href="impacto.html">Saiba Mais</a>
+            </button>
+          </div>
+        </section>
+        <section id="parte3">
+          <div class="carta">
+            <div class="texto-carta">
+              <h2>Sonhos Realizados</h2>
+              <hr />
+              <p>
+                No Natal Encantado, cada sonho realizado começa com um pequeno
+                gesto: uma criança escrevendo sua carta e depositando nela toda
+                a esperança de ser lembrada. Para muitas delas, o pedido vai
+                além do objeto desejado, é a vontade de viver um momento
+                especial, de sentir que alguém se importa, de acreditar que o
+                Natal realmente pode ser mágico. Quando essas cartas chegam ao
+                site, elas ganham uma chance real de se transformar em
+                felicidade.
+              </p>
+              <p>
+                Quando um voluntário escolhe uma carta, o sonho começa a tomar
+                forma. O site permite que esses pedidos encontrem quem deseja
+                ajudar, e assim cada história encontra seu próprio herói. Um
+                simples brinquedo, uma roupa nova, um material escolar ou até um
+                gesto simbólico, tudo se transforma em algo muito maior quando
+                chega às mãos de uma criança que aguardou com o coração cheio de
+                expectativa. O site faz essa ponte acontecer de forma
+                organizada, carinhosa e segura, garantindo que nenhum pedido
+                seja apenas um número, cada sonho importa.
+              </p>
+              <p>
+                E o momento mais especial é quando o presente é entregue. É ali
+                que o sonho se realiza de verdade: na emoção de saber que alguém
+                dedicou tempo e amor para tornar o Natal inesquecível. Para
+                essas crianças, não é apenas um presente, é a confirmação de que
+                elas são vistas, amadas e importantes. E para o site Natal
+                Encantado, cada sonho realizado é o que dá sentido ao projeto,
+                renovando a missão de espalhar magia a cada novo Natal.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="parte2">
+          <div class="container-icones">
+            <figure class="container-icones-qdi">
+              <img
+                class="imagem-icone"
+                src="./icones/sr4.png"
+                alt="Menina sentada no chão com uma boneca"
+              />
+              <figcaption class="texto-explicativo">
+                <h2>O Sonho de Ana</h2>
+                <span class="texto-impacto">Um dia de muita alegria</span>
+              </figcaption>
+            </figure>
+
+            <figure class="container-icones-qdi">
+              <img
+                class="imagem-icone"
+                src="./icones/sr2.png"
+                alt="Mulheres segurando uma criança e uma bola de futebol"
+              />
+
+              <figcaption class="texto-explicativo">
+                <h2>O Sonho de Enzo Gabriel</h2>
+                <span class="texto-impacto">O brinquedo favorito chegou</span>
+              </figcaption>
+            </figure>
+
+            <figure class="container-icones-qdi">
+              <img
+                class="imagem-icone"
+                src="./icones/sr6.png"
+                alt="Menino sorriondo com um carrinho de brinquedo na mão"
+              />
+              <figcaption class="texto-explicativo">
+                <h2>O sonho de Miguel</h2>
+                <span class="texto-impacto">Um sorrisso que diz tudo</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="botao">
+            <button type="button" class="botao1">
+              <a href="sonhos.html">Conheça suas Histórias</a>
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer id="rodape">
+        <p>
+          <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://github.com/signup" target="_blank"
+            ><i class="bi bi-github"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </p>
+        <div id="rodape2">
+          <span class="rodape2-texto"
+            >&copy; 2025 Todos os direitos reservados.</span
+          >
+        </div>
+      </footer>
+    </div>
+    <!-- Bootstrap JS, Popper.js e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

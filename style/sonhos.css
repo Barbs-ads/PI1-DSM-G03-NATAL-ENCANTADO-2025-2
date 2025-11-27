@@ -1,0 +1,199 @@
+.titulo-secao {
+  text-align: center;
+  padding: 40px 20px 10px;
+}
+
+.titulo-secao h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.titulo-secao p {
+  font-size: 1.1rem;
+  color: #daa520;
+  font-family: "Open Sans", sans-serif;
+}
+
+.historias-container {
+  position: relative;
+  max-width: 900px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: #daa520 2px solid;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.historias-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.historia-card {
+  min-width: 100%;
+  background-image: url("../fundo/fundo-sonhos2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: #daa520 2px solid;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+.historia-card img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #daa520;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+}
+
+.historia-card h2 {
+  font-family: "Calligraffitti";
+  color: #491010;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.historia-card h3 {
+  color: #daa520;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.historia-card .historia-texto {
+  background: #f0e5c3;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #daa520;
+  max-width: 700px;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  text-align: justify;
+  color: #333;
+}
+
+.historia-card .historia-texto p {
+  margin-bottom: 15px;
+}
+
+.historia-card .sonho-realizado {
+  background: #daa520;
+  color: #491010;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #daa520;
+}
+
+.historia-card .sonho-realizado i {
+  color: #491010;
+}
+
+.seta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  color: #daa520;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seta:hover {
+  color: #491010;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.seta-esquerda {
+  left: 15px;
+}
+
+.seta-direita {
+  right: 15px;
+}
+.img-coluna {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-renas {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+}
+
+.indicadores {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.indicador {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(218, 165, 32, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid #daa520;
+}
+
+.indicador.ativo {
+  background: #daa520;
+  transform: scale(1.2);
+}
+
+.indicador:hover {
+  background: rgba(218, 165, 32, 0.6);
+}
+
+@media (max-width: 768px) {
+  .historia-card {
+    padding: 25px 15px;
+  }
+
+  .historia-card img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .historia-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .historia-card .historia-texto {
+    padding: 15px;
+    font-size: 0.95rem;
+  }
+
+  .seta {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+}

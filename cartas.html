@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/cartas.css" />
+    <link
+      rel="shortcut icon"
+      href="./logotipo/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Natal Encantado</title>
+  </head>
+
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <div id="cabecalho-logotipo">
+          <img
+            id="cabecalho-logotipo-img"
+            src="./logotipo/logotipo.png"
+            alt="Logotipo da página"
+          />
+          <h1>
+            Natal <br />
+            Encantado
+          </h1>
+        </div>
+        <nav id="cabecalho-menu">
+          <h1>Menu Principal</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="cartas.html">Cartas</a></li>
+            <li><a href="cadastro.html">Cadastros</a></li>
+            <li><a href="#rodape">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1 class="titulo-carta">Escreva sua Cartinha para o Natal Encantado</h1>
+        <hr />
+        <span class="pedido">Escreva seu pedido abaixo:</span>
+
+        <section class="cartas">
+          <img
+            src="./imagens_sobre/rena3.png"
+            alt="Rena segurando carta de natal"
+            class="rena-carta"
+          />
+          <div class="pergaminho">
+            <form>
+              <label>Seu Nome:</label><br />
+              <input type="text" placeholder="Seu nome..." /><br />
+
+              <label>Sua Cartinha:</label><br />
+              <textarea
+                rows="10"
+                placeholder="Querido Papai Noel, este ano eu gostaria de..."
+              ></textarea
+              ><br />
+            </form>
+          </div>
+          <img
+            src="./imagens_sobre/rena21.png"
+            alt="Rena escrevendo carta de natal"
+            class="rena-carta"
+          />
+        </section>
+        <button type="submit" onclick="enviar()" class="botao1">
+          Enviar Carta
+        </button>
+
+        <h1 class="titulo-carta">Adote uma Carta</h1>
+        <hr />
+        <section id="parte2">
+          <div id="quadro1">
+            <h2>Catinhas de Natal</h2>
+            <hr />
+            <div class="container-icones">
+              <figure class="container-icones-qdp">
+                <i class="bi bi-gift-fill"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>Bruna, 9 anos</h2>
+                  <div class="di">Disponível</div>
+                  "Querido Papai Noel, eu adoraria ganhar uma boneca nova para
+                  brincar com minhas amigas."
+                  <div class="presente">
+                    <i class="bi bi-gift"></i>Pedido: Uma boneca
+                  </div>
+                  <button type="submit" onclick="adotar()" class="botao1">
+                    Quero Adotar
+                  </button>
+                </figcaption>
+              </figure>
+
+              <figure class="container-icones-qdp">
+                <i class="bi bi-gift-fill"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>Enzo, 4 anos</h2>
+                  <div class="di">Disponível</div>
+                  "Eu gosto de dinossauros grandes. O T-Rex é o meu favorito
+                  porque ele é muito forte."
+                  <div class="presente">
+                    <i class="bi bi-gift"></i>Pedido: Dinossauro de brinquedo
+                  </div>
+                  <button type="submit" onclick="adotar()" class="botao1">
+                    Quero Adotar
+                  </button>
+                </figcaption>
+              </figure>
+
+              <figure class="container-icones-qdp">
+                <i class="bi bi-gift-fill"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>Júlia, 10 anos</h2>
+                  <div class="in">Indisponível</div>
+                  "Gosto muito de ler histórias de aventura e fantasia. Queria
+                  ganhar um livro novo este ano."
+                  <div class="presente">
+                    <i class="bi bi-gift"></i>Pedido: Livro de aventura
+                  </div>
+                  <button type="submit" onclick="adotado()" class="botao2">
+                    Obrigada ao doador
+                  </button>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section id="parte2">
+          <div id="quadro1">
+            <h2>Cartinhas de Natal</h2>
+            <hr />
+            <div class="container-icones">
+              <figure class="container-icones-qdp">
+                <i class="bi bi-gift-fill"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>Lucas, 6 anos</h2>
+                  <div class="di">Disponível</div>
+                  "Querido Papai Noel, este ano eu me comportei bem na escola.
+                  Eu gosto muito de jogar bola com meus amigos na rua do
+                  bairro."
+                  <div class="presente">
+                    <i class="bi bi-gift"></i>Pedido: Uma bola de futebol
+                  </div>
+                  <button type="submit" onclick="adotar()" class="botao1">
+                    Quero Adotar
+                  </button>
+                </figcaption>
+              </figure>
+
+              <figure class="container-icones-qdp">
+                <i class="bi bi-gift-fill"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>Pedro, 5 anos</h2>
+                  <div class="di">Disponível</div>
+                  "Papai Noel, eu queria um carrinho de controle remoto para
+                  brincar no quintal com meu irmão."
+                  <div class="presente">
+                    <i class="bi bi-gift"></i>Pedido: Carrinho de brinquedo
+                  </div>
+                  <button type="submit" onclick="adotar()" class="botao1">
+                    Quero Adotar
+                  </button>
+                </figcaption>
+              </figure>
+
+              <figure class="container-icones-qdp">
+                <i class="bi bi-gift-fill"></i>
+                <figcaption class="texto-explicativo">
+                  <h2>Marina, 8 anos</h2>
+                  <div class="di">Disponível</div>
+                  "Oi Noel! Eu adoro desenhar e pintar o dia todo. Meus lápis
+                  acabaram e eu queria muito um kit novo pra continuar
+                  pintando."
+                  <div class="presente">
+                    <i class="bi bi-gift"></i>Pedido: Lápis de cor e caderno
+                  </div>
+                  <button type="submit" onclick="adotar()" class="botao1">
+                    Quero Adotar
+                  </button>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div id="quadro2">
+            <h2>Doe por presente</h2>
+            <hr />
+            <div class="formulario-presente">
+              <div class="form-group col-md-5">
+                <label for="presente" class="control-label"
+                  >O que você gostaria de doar?</label
+                >
+                <select class="custom-select" id="presente" required>
+                  <optgroup label="Brinquedos">
+                    <option value="bonecas">Bonecas e Acessórios</option>
+                    <option value="veiculos">Carrinhos e Veículos</option>
+                    <option value="herois">
+                      Bonecos de Super-herois e outros
+                    </option>
+                    <option value="jogos">Jogos e Quebra-Cabeças</option>
+                    <option value="educativos">
+                      Brinquedos Educativos/Montar
+                    </option>
+                  </optgroup>
+
+                  <optgroup label="Esportes e Lazer">
+                    <option value="bolas">
+                      Bola de Futebol/Vôlei/Basquete
+                    </option>
+                    <option value="rodas">Skate/Patins/Patinete</option>
+                    <option value="bicicleta">Bicicleta</option>
+                  </optgroup>
+
+                  <optgroup label="Escola e Arte">
+                    <option value="kit-escolar">Kit de Lápis e Caderno</option>
+                    <option value="mochila">Mochila ou Estojo</option>
+                    <option value="livros">Livros e Gibis</option>
+                    <option value="arte">Tintas e Pintura</option>
+                  </optgroup>
+
+                  <optgroup label="Roupas e Calçados">
+                    <option value="roupa">Roupas</option>
+                    <option value="tenis">Tênis</option>
+                    <option value="sandalia">Sandália/Chinelo</option>
+                  </optgroup>
+
+                  <optgroup label="Outros">
+                    <option value="higiene">Kit de Higiene/Beleza</option>
+                    <option value="tecnologia">Eletrônicos</option>
+                    <option value="outro">Outro</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="form-group col-md-5">
+                <label for="local" class="control-label"
+                  >Ponto de Coleta onde deseja levar o pedido</label
+                >
+                <select class="custom-select" id="local" required>
+                  <option value="rua1">
+                    Rua Alberto de Azevedo, n°379 - Bairro: Santa Helena -
+                    Franca/SP
+                  </option>
+                  <option value="rua2">
+                    Avenida Paulo Pucci, n°79 - Bairro: Santa Efigênia -
+                    Franca/SP
+                  </option>
+                  <option value="rua3">
+                    Rua Cândido Portinari, n°899 - Bairro: Campos Elísios -
+                    Franca/SP
+                  </option>
+                  <option value="rua4">
+                    Rua Augusto dos Anjos, n°551 - Bairro: Jardim das Oliveiras
+                    - Franca/SP
+                  </option>
+                  <option value="rua5">
+                    Rua Manoel de Barros, n°628 - Bairro: Jardim Esmeralda -
+                    Franca/SP
+                  </option>
+                </select>
+              </div>
+            </div>
+            <button type="submit" onclick="escolher()" class="botao1">
+              Escolher
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer id="rodape">
+        <p>
+          <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://github.com/signup" target="_blank"
+            ><i class="bi bi-github"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </p>
+        <div id="rodape2">
+          <span class="rodape2-texto"
+            >&copy; 2025 Todos os direitos reservados.</span
+          >
+        </div>
+      </footer>
+    </div>
+    <!-- Bootstrap JS, Popper.js e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./script/carta.js"></script>
+  </body>
+</html>

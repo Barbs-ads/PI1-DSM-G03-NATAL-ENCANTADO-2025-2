@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Cinzel+Decorative&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+#cadastro-main {
+  background-color: #f0e5c3;
+  padding: 40px 20px;
+  min-height: calc(100vh - 100px);
+}
+#cadastro-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 5px solid #daa520;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.titulo-principal {
+  font-family: "Cinzel Decorative", serif;
+  color: #491010;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#cadastro-container hr {
+  border-color: #daa520;
+  width: 80%;
+  margin-bottom: 30px;
+}
+#opcoes-cadastro {
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.btn-opcao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: auto;
+  background-color: #daa520;
+  color: #491010;
+  border: 2px solid #491010;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  font-family: "Open Sans", sans-serif;
+}
+.btn-opcao:hover {
+  background-color: #491010;
+  color: #daa520;
+  border-color: #daa520;
+}
+.btn-opcao i {
+  transition: color 0.3s ease;
+}
+.btn-opcao:hover i {
+  color: #daa520;
+}
+
+.btn-opcao.active {
+  background-color: #491010;
+  color: #daa520;
+  border-color: #daa520;
+  box-shadow: 0 0 10px rgba(218, 165, 32, 0.7);
+}
+.btn-opcao.active i {
+  color: #daa520;
+}
+
+.btn-opcao i {
+  font-size: 1.2rem;
+}
+.form-cadastro {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.form-cadastro.hidden {
+  display: none;
+}
+.form-cadastro.active {
+  display: block;
+}
+
+.form-titulo {
+  font-family: "Calligraffitti", cursive;
+  color: #491010;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-descricao {
+  font-family: "Open Sans", sans-serif;
+  color: #491010;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+.form-group label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #491010;
+}
+.form-control {
+  border: 1px solid #daa520;
+  background-color: #ffffff;
+  color: #491010;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.form-control::placeholder {
+  color: #aaa;
+}
+
+.form-control:focus {
+  border-color: #491010;
+  box-shadow: 0 0 8px rgba(73, 16, 16, 0.6);
+}
+
+.btn-submit {
+  background-color: #491010;
+  color: #daa520;
+  border: none;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-submit:hover {
+  background-color: #daa520;
+  color: #491010;
+  border: 1px solid #491010;
+}
+
+@media (max-width: 600px) {
+  #opcoes-cadastro {
+    flex-direction: column;
+  }
+  .btn-opcao {
+    width: auto;
+    width: 100%;
+  }
+  #cadastro-container {
+    padding: 20px;
+  }
+}

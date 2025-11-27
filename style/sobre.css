@@ -1,0 +1,67 @@
+main {
+  text-align: center;
+}
+
+h1.titulo-sobre {
+  font-family: "Cinzel Decorative", serif;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  text-transform: uppercase; 
+  letter-spacing: 2px;  
+}
+
+.subtitulo-sobre {
+  display: block;
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.sobre-resumo {
+  max-width: 950px;
+  margin: 0 auto 35px auto;
+  color: #f0e5c3;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+#parte-mvv {
+  margin-top: 15px;
+}
+
+#parte-mvv h2 {
+  font-size: 26px;
+}
+
+.container-icones-qd p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.valores-lista {
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 18px;
+  font-size: 15px;
+}
+
+.valores-lista li {
+  margin-bottom: 5px;
+}
+
+#parte-quem {
+  margin-top: 25px;
+}
+
+#parte-quem h2 {
+  font-size: 26px;
+}
+
+.sobre-quem-texto {
+  max-width: 950px;
+  margin: 0 auto;
+  color: #491010;
+  line-height: 1.8;
+  font-size: 16px;
+}
