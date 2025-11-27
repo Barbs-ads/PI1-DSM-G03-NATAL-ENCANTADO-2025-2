@@ -2,7 +2,7 @@
 Projeto Interdisciplinar do curso de DSM para o primeiro semestre
 # 🎄 Natal Encantado
 
-> "A magia acontece quando você doa."
+ "A magia acontece quando você doa."
 
 ![Status](https://img.shields.io/badge/Status-Concluído-green) ![FATEC](https://img.shields.io/badge/FATEC-DSM-blue)
 
@@ -26,14 +26,14 @@ Nossa missão é transformar a frieza da logística em calor humano. O projeto f
 ## 🎨 Identidade Visual
 O design foi pensado para transmitir acolhimento e o espírito natalino, utilizando a seguinte paleta de cores:
 
-| Cor | Hex | Nome Temático | Aplicação |
-| :--- | :--- | :--- | :--- |
-| 🔴 | `#491010` | **Vinho do Noel** | Fundo, Cabeçalho, Textos Escuros |
-| 🟤 | `#240303` | **Veludo Natalino** | Rodapé |
-| 🟡 | `#DAA520` | **Ouro da Generosidade** | Destaques, Bordas, Links |
-| ⭐ | `#F0C505` | **Estrela Guia** | Títulos de Banner, Alto Destaque |
-| 📜 | `#F0E5C3` | **Pergaminho Antigo** | Fundos de Conteúdo |
-| ⚪ | `#FFFFFF` | **Neve Pura** | Textos Claros, Contraste |
+| Ícone | Cor | Hex | Nome Temático | Aplicação |
+| :---: | :---: | :--- | :--- | :--- |
+| 🔴 | ![#491010](https://placehold.co/20x20/491010/491010.png) | `#491010` | **Vinho do Noel** | Fundo, Cabeçalho, Textos Escuros |
+| 🟤 | ![#240303](https://placehold.co/20x20/240303/240303.png) | `#240303` | **Veludo Natalino** | Rodapé |
+| 🟡 | ![#DAA520](https://placehold.co/20x20/DAA520/DAA520.png) | `#DAA520` | **Ouro da Generosidade** | Destaques, Bordas, Links |
+| ⭐ | ![#F0C505](https://placehold.co/20x20/F0C505/F0C505.png) | `#F0C505` | **Estrela Guia** | Títulos de Banner, Alto Destaque |
+| 📜 | ![#F0E5C3](https://placehold.co/20x20/F0E5C3/F0E5C3.png) | `#F0E5C3` | **Pergaminho Antigo** | Fundos de Conteúdo |
+| ⚪ | ![#FFFFFF](https://placehold.co/20x20/FFFFFF/FFFFFF.png) | `#FFFFFF` | **Neve Pura** | Textos Claros, Contraste |
 
 **Tipografia:**
 * *Títulos:* Cinzel Decorative (Elegância e Solenidade).
