@@ -50,8 +50,8 @@ Este projeto foi desenvolvido pela seguinte equipe da FATEC:
 * **Pedro Henrique Alves** - *Sonhos*
 
 ## 🔗 Links do Projeto
-* **Acesse o Site:** [Visualizar o Natal Encantado]()
-* **Repositório:** [Código Fonte no GitHub]()
+* **Acesse o Site:** [Visualizar o Natal Encantado](https://barbs-ads.github.io/PI1-DSM-G03-NATAL-ENCANTADO-2025-2/)
+* **Repositório:** [Código Fonte no GitHub](https://github.com/Barbs-ads/PI1-DSM-G03-NATAL-ENCANTADO-2025-2)
 
 * **Video de Apresentação do projeto no Toutube:** [Video Youtube]()
 
